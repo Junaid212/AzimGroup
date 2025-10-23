@@ -18,7 +18,7 @@ const HotelOffersArea = (props) => {
                <div className="title-img"><img src={titleimg} alt="Icon" /></div>
             </div>
             <div className="row gy-4">
-               {HoteleOfferData.slice(0, 3).map((hotel, index) => (
+               {/* {HoteleOfferData.slice(0, 3).map((hotel, index) => (
                   <div className="12" key={index}>
                      <div className="room-card style2 style-flex" style={{ backgroundImage: `url(${shapeImg})` }}>
                         <div className="box-img global-img">
@@ -44,7 +44,7 @@ const HotelOffersArea = (props) => {
                         </div>
                      </div>
                   </div>
-               ))}
+               ))} */}
             </div>
             <div className="d-flex justify-content-center mt-60 text-center"><Link onClick={ClickHandler} to="/package" className="th-btn2 ser-btn">Explore More</Link></div>
          </div>
