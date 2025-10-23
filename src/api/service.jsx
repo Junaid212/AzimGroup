@@ -1,0 +1,246 @@
+/* image */
+import Simg1 from '../img/service/service_card_1.jpg'
+import Simg2 from '../img/service/service_card_2.jpg'
+import Simg3 from '../img/service/service_card_3.jpg'
+import Simg4 from '../img/service/service_card_4.jpg'
+import Simg5 from '../img/service/service_card_5.jpg'
+import Simg6 from '../img/service/service_card_6.jpg'
+import Simg7 from '../img/service/service_card_5_1.jpg'
+import Simg8 from '../img/service/service_card_5_2.jpg'
+import Simg9 from '../img/service/service_card_5_3.jpg'
+import Simg10 from '../img/service/service_card_5_4.jpg'
+
+import grid1 from '../img/service/service_grid_1.jpg'
+import grid2 from '../img/service/service_grid_2.jpg'
+import grid3 from '../img/service/service_grid_3.jpg'
+import grid4 from '../img/service/service_grid_4.jpg'
+import grid5 from '../img/service/service_grid_5.jpg'
+import grid6 from '../img/service/service_grid_6.jpg'
+import grid7 from '../img/service/service_grid_7.jpg'
+import grid8 from '../img/service/service_grid_8.jpg'
+
+
+
+import Icon1 from '../img/icon/service_card_1.svg'
+import Icon2 from '../img/icon/service_card_2.svg'
+import Icon3 from '../img/icon/service_card_3.svg'
+import Icon4 from '../img/icon/service_card_4.svg'
+import Icon5 from '../img/icon/service_card_5.svg'
+import Icon6 from '../img/icon/service_card_6.svg'
+import Icon7 from '../img/icon/service_2_1.svg'
+import Icon8 from '../img/icon/service_2_2.svg'
+import Icon9 from '../img/icon/service_2_3.svg'
+import Icon10 from '../img/icon/service_2_4.svg'
+import Icon11 from '../img/icon/service_2_5.svg'
+import Icon12 from '../img/icon/service_2_6.svg'
+import Icon13 from '../img/icon/service_2_7.svg'
+import Icon14 from '../img/icon/service_2_8.svg'
+
+import service_1 from '../img/icon/service_1_1.svg'
+import service_2 from '../img/icon/service_1_2.svg'
+import service_3 from '../img/icon/service_1_3.svg'
+import service_4 from '../img/icon/service_1_4.svg'
+import service_5 from '../img/icon/service_1_5.svg'
+import service_6 from '../img/icon/service_1_6.svg'
+
+
+
+
+
+const ServiceData = [
+   {
+      id: '01',
+      num: '01',
+      title: 'One Way Limousine WLL',
+      title2: 'Air Conditioning',
+      subtitle: 'The wellbeing of our guests and staff is of paramount importance. Our Covid-19 strategy includes deep cleaning rooms between guests.',
+      slug: '1',
+      image: Simg1,
+      grid: grid1,
+      Icon: Icon1,
+      Icon2: service_1,
+   },
+   {
+      id: '02',
+      num: '02',
+      title: 'AZIM Facilities Management & services',
+      title2: 'Bath',
+      subtitle: 'Crafting Elevated Experiences: Where Excellence Meets Service. Your space, our commitment.',
+      slug: '2',
+      image: Simg2,
+      grid: grid2,
+      Icon: Icon2,
+      Icon2: service_2,
+   },
+   {
+      id: '03',
+      num: '03',
+      title: 'VenYou Events',
+      title2: 'Haidryer',
+      subtitle: 'The wellbeing of our guests and staff is of paramount importance. Our Covid-19 strategy includes deep cleaning rooms between guests.',
+      slug: '3',
+      image: Simg3,
+      grid: grid3,
+      Icon: Icon3,
+      Icon2: service_3,
+   },
+   {
+      id: '04',
+      num: '04',
+      title: 'Najila Food Trading',
+      title2: 'King bed',
+      subtitle: 'The wellbeing of our guests and staff is of paramount importance. Our Covid-19 strategy includes deep cleaning rooms between guests.',
+      slug: '4',
+      image: Simg4,
+      grid: grid4,
+      Icon: Icon4,
+      Icon2: service_4,
+   },
+   {
+      id: '05',
+      num: '05',
+      title: 'Golden Vision Cleaning and Hospitality Services',
+      title2: 'Mini Bar',
+      subtitle: 'The wellbeing of our guests and staff is of paramount importance. Our Covid-19 strategy includes deep cleaning rooms between guests.',
+      slug: '5',
+      image: Simg5,
+      grid: grid5,
+      Icon: Icon5,
+      Icon2: service_5,
+   },
+   {
+      id: '06',
+      num: '06',
+      title: 'Golden Auto Electrical',
+      title2: 'Televesion',
+      subtitle: 'The wellbeing of our guests and staff is of paramount importance. Our Covid-19 strategy includes deep cleaning rooms between guests.',
+      slug: '6',
+      image: Simg6,
+      grid: grid6,
+      Icon: Icon6,
+      Icon2: service_6,
+   },
+   {
+      id: '07',
+      num: '07',
+      title: 'Vadakara To Kasargod Restaurant',
+      title2: 'STAY & DINE',
+      subtitle: 'Whats life without good food. Both our restaurants offer a variety of cuisine to try. Cooked with fresh vegetables and herbs that you can pick from the farm.',
+      slug: '7',
+      image: Simg7,
+      grid: grid7,
+      Icon: Icon6,
+   },
+   {
+      id: '08',
+      num: '08',
+      title: 'Dynamic Growth',
+      title2: 'Boundless Progress',
+      subtitle: "Azim Group's trajectory is marked by dynamic growth, evolving and expanding its presence across industries, showcasing resilience and adaptability.",
+      slug: '8',
+      image: Simg8,
+      grid: grid8,
+      Icon: Icon6,
+   },
+   {
+      id: '09',
+      num: '09',
+      title: 'Adaptable Approach',
+      title2: 'Boundless Progress',
+      subtitle: "Azim Group's success lies in its adaptive approach, navigating challenges with resilience. Its ability to evolve has positioned the group as a dynamic force, ready for the future.",
+      slug: '9',
+      image: Simg9,
+      Icon: Icon6,
+   },
+   {
+      id: '10',
+      num: '10',
+      title: 'Innovative Solutions',
+      title2: 'Boundless Progress',
+      subtitle: "Azim Group is renowned for pioneering innovative solutions, constantly pushing boundaries to offer products and services that set industry benchmarks.",
+      slug: '10',
+      image: Simg10,
+      Icon: Icon6,
+   },
+   {
+      id: '11',
+      num: '11',
+      title: 'Room Services',
+      title2: 'SPECIAL EVENTS',
+      subtitle: 'A hotel service that allows guests to order food, drinks, and other items to their room.',
+      slug: '11',
+      image: Simg10,
+      Icon: Icon7,
+   },
+    {
+      id: '12',
+      num: '12',
+      title: 'Swimming Pool',
+      title2: 'SPECIAL EVENTS',
+      subtitle: 'A hotel service that allows guests to order food, drinks, and other items to their room.',
+      slug: '12',
+      image: Simg10,
+      Icon: Icon8,
+   },
+    {
+      id: '13',
+      num: '13',
+      title: 'Fitness & Wellness',
+      title2: 'SPECIAL EVENTS',
+      subtitle: 'A hotel service that allows guests to order food, drinks, and other items to their room.',
+      slug: '13',
+      image: Simg10,
+      Icon: Icon9,
+   },
+    {
+      id: '14',
+      num: '14',
+      title: 'Car Parking',
+      title2: 'SPECIAL EVENTS',
+      subtitle: 'A hotel service that allows guests to order food, drinks, and other items to their room.',
+      slug: '14',
+      image: Simg10,
+      Icon: Icon10,
+   },
+    {
+      id: '15',
+      num: '15',
+      title: 'Pick up & Drop',
+      title2: 'SPECIAL EVENTS',
+      subtitle: 'A hotel service that allows guests to order food, drinks, and other items to their room.',
+      slug: '15',
+      image: Simg10,
+      Icon: Icon11,
+   },
+    {
+      id: '16',
+      num: '16',
+      title: 'Store Luggage',
+      title2: 'SPECIAL EVENTS',
+      subtitle: 'A hotel service that allows guests to order food, drinks, and other items to their room.',
+      slug: '16',
+      image: Simg10,
+      Icon: Icon12,
+   },
+    {
+      id: '17',
+      num: '17',
+      title: 'Restaurant & Bar',
+      title2: 'SPECIAL EVENTS',
+      subtitle: 'A hotel service that allows guests to order food, drinks, and other items to their room.',
+      slug: '17',
+      image: Simg10,
+      Icon: Icon13,
+   },
+    {
+      id: '18',
+      num: '18',
+      title: 'Free WiFi',
+      title2: 'SPECIAL EVENTS',
+      subtitle: 'A hotel service that allows guests to order food, drinks, and other items to their room.',
+      slug: '18',
+      image: Simg10,
+      Icon: Icon14,
+   },
+]
+export default ServiceData;
