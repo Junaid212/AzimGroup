@@ -1,5 +1,5 @@
 import { Fragment } from 'react';
-import { useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import ServiceData from '../../api/service';
 import ColorScheme from '../../components/ColorScheme/ColorScheme';
 import Experience from '../../components/Experience/Experience';
@@ -22,7 +22,9 @@ import offer_2 from '../../img/offer/offer_6_2.jpg';
 import offer_3 from '../../img/offer/offer_6_3.jpg';
 import offer_4 from '../../img/offer/offer_6_4.jpg';
 import offer_5 from '../../img/offer/offer_6_5.jpg';
-
+import BlogAreaS5 from '../../components/BlogAreaS5/BlogAreaS5';
+import BlogArea from '../../components/BlogArea/BlogArea';
+import titleimg from '../../img/theme-img/title_icon.svg';
 
 
 const NajilaFoodTrading = () => {
@@ -40,6 +42,7 @@ const NajilaFoodTrading = () => {
                     <div className="title-area">
                         <span className="sub-title2 style1">ABOUT</span>
                         <h2 className="sec-title text-white">Najila Food Trading</h2>
+                        <span className="title-img"><img src={titleimg} alt="shape" /></span>
                         <p className="sec-text mt-35">As a leading name in food trading, Najila Food Trading is a 
                             recognized destination for top-quality products. We import and distribute an extensive
                              range of food serving the food service, wholesale, and retail sectors. Our partnerships
@@ -47,8 +50,20 @@ const NajilaFoodTrading = () => {
                                including dry, frozen, fresh goods, live fish, Japanese delicacies, meats, and essentials.
                                 We are your pathway to exceptional culinary experiences.</p>
                     </div>
-                    
+                    <div className="about-author-wrap style2">
+                        {/* <div className="thumb">
+                            <img src={avater2} alt="img" />
+                        </div> */}
+                        <div className="box-content">
+                            <h4 className="about-author-title">For more details, check out the link below!</h4>
+                            <span className="about-author-desig"><Link to='https://najilafood.com/' target='blank'>Najilafood.com</Link></span>
+                        </div>
+                        <div className="author-sign">
+                            {/* <img src={signature2} alt="img" /> */}
+                        </div>
+                    </div>
                 </div>
+                
                 <div className="col-xxl-8">
                     <div className="offer-wrap6">
                         <div className="offer-tag-thumb global-img">
@@ -82,7 +97,7 @@ const NajilaFoodTrading = () => {
                 </div>
             </div>  
         </div>
-        
+        <BlogArea hclass={'space bg-shape overflow-hidden'} />
          
         
    

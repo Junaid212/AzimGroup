@@ -169,13 +169,13 @@ const HeaderArea = (props) => {
                                     <Link onClick={ClickHandler} to="/service">Services</Link>
                                     <ul className="sub-menu">
                                        <li><Link onClick={ClickHandler} to="/service">All Services</Link></li>
-                                       <li><Link onClick={ClickHandler} to="/one-way-limousin-wll/1">One Way Limousine WLL</Link></li>
-                                       <li><Link onClick={ClickHandler} to="/facilities-management-services/2">AZIM Facilities Management & services</Link></li>
+                                       <li><Link onClick={ClickHandler} to="/one-way-limousin-wll/1">One Way Limousine</Link></li>
+                                       <li><Link onClick={ClickHandler} to="/facilities-management-services/2">Facilities Management & services</Link></li>
                                        <li><Link onClick={ClickHandler} to="/venyou-events/3">VenYou Events</Link></li>
-                                       <li><Link onClick={ClickHandler} to="/nijila-food-trading/4">Najila Food Trading</Link></li>
-                                       <li><Link onClick={ClickHandler} to="/hospitality-services/5">Golden Vision Cleaning and Hospitality Services</Link></li>
-                                       <li><Link onClick={ClickHandler} to="/golden-auto-electrical/6">Golden Auto Electrical</Link></li>
-                                       <li><Link onClick={ClickHandler} to="/vadakara-to-kasargog-reststaurent/7">Vadakara To Kasargod Restaurant</Link></li>
+                                       <li><Link onClick={ClickHandler} to="/nijila-food-trading/4">Food Trading</Link></li>
+                                       <li><Link onClick={ClickHandler} to="/hospitality-services/5">Cleaning and Hospitality Services</Link></li>
+                                       <li><Link onClick={ClickHandler} to="/golden-auto-electrical/6">Auto Electricals</Link></li>
+                                       <li><Link onClick={ClickHandler} to="/restaurent/7">Restaurant</Link></li>
                                     </ul>
                                  </li>
                                  {/* <li><Link onClick={ClickHandler} to="/gallery">Gallery</Link></li>
@@ -265,8 +265,14 @@ const HeaderArea = (props) => {
                            <Link to='#' onClick={() => toggleSubMenu('services')}>Our Services</Link>
                            {openSubMenus['services'] && (
                               <ul className="sub-menu">
-                                 <li><Link onClick={ClickHandler} to="/service">Our Services</Link></li>
-                                 <li><Link onClick={ClickHandler} to="/service-details/1">Service Details</Link></li>
+                                 <li><Link onClick={ClickHandler} to="/service">All Services</Link></li>
+                                       <li><Link onClick={ClickHandler} to="/one-way-limousin-wll/1">One Way Limousine</Link></li>
+                                       <li><Link onClick={ClickHandler} to="/facilities-management-services/2">Facilities Management & services</Link></li>
+                                       <li><Link onClick={ClickHandler} to="/venyou-events/3">VenYou Events</Link></li>
+                                       <li><Link onClick={ClickHandler} to="/nijila-food-trading/4">Food Trading</Link></li>
+                                       <li><Link onClick={ClickHandler} to="/hospitality-services/5">Cleaning and Hospitality Services</Link></li>
+                                       <li><Link onClick={ClickHandler} to="/golden-auto-electrical/6">Auto Electricals</Link></li>
+                                       <li><Link onClick={ClickHandler} to="/restaurent/7">Restaurant</Link></li>
                               </ul>
                            )}
                         </li>

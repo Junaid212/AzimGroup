@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Ab1 from '../../img/normal/about_7.jpg';
 import Ab2 from '../../img/normal/about_8.jpg';
 import Ab3 from '../../img/normal/about_9.jpg';
-import title from '../../img/theme-img/title_icon_white.svg';
+import title2 from '../../img/theme-img/title_icon2.svg'
 import CircleTextS2 from "../CircleTextS2/CircleTextS2";
 import VideoModal from "../ModalVideo/ModalVideo";
 
@@ -20,8 +20,9 @@ const AboutAreaS8 = () => {
             <div className="row">
                <div className="col-xl-5 mb-35 mb-xl-0">
                   <div className="title-area mb-30 pe-xxl-5">
-                     <img src={title} alt="shape" />
+                     {/* <img src={title} alt="shape" /> */}
                      <h2 className="sec-title text-white">We are a Group of companies</h2>
+                     <img src={title2} alt="shape" />
                      <p className="text-body fs-18 mt-25 mb-40">Empowering Growth, Uniting Excellence to Shape Tomorrow's Success</p>
                      <p className="text-body fs-18 mb-60">AZIM Group is a constellation of enterprises at the heart of Qatar's dynamic business landscape. With seven unique companies under our banner, we orchestrate services to deliver unmatched value across diverse industries</p>
                   </div>
@@ -65,8 +66,8 @@ const AboutAreaS8 = () => {
                         <img src={Ab1} alt="" />
                         <div className="about-wrapp">
                            <div className="discount-wrapp">
-                              <VideoModal vidclass={'play-btn popup-video'} />
-                              <CircleTextS2 text="Rotal hotel since 1999* Rotal hotel since 1999*" />
+                              {/* <VideoModal vidclass={'play-btn popup-video'} /> */}
+                              <CircleTextS2 text=" AZIM Facilities Management and services *" />
 
                            </div>
                         </div>

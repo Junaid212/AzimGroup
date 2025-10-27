@@ -29,7 +29,7 @@ const AboutAreaS7 = (props) => {
                      </div>
                      <div className="discount-wrapp">
                         {/* <VideoModal vidclass={'play-btn popup-video'} /> */}
-                        <CircleTextS2 text="Rotal hotel since 1999* Rotal hotel since 1999*" />
+                        <CircleTextS2 text=" AZIM Facilities Management and services *" />
                      </div>
                   </div>
 

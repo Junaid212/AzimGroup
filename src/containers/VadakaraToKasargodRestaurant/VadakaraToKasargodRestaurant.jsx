@@ -18,7 +18,7 @@ import feature2 from '../../img/icon/about_feature_2.svg'
 import feature3 from '../../img/icon/about_feature_3.svg'
 import feature4 from '../../img/icon/about_feature_4.svg'
 import Ab1 from '../../img/normal/about_1.jpg'
-
+import map from '../../img/shape/map.png';
 
 
 const VadakaraToKasargodRestaurant = () => {
@@ -59,6 +59,15 @@ const VadakaraToKasargodRestaurant = () => {
                                             traditions, bringing the best of Vadakara and Kasargod to your plate.</p>
                                    </div>
                                </div>
+                               <div className="map-view shape-mockup2" data-bottom="162px" data-left="131px">
+                                           <span className="hero-map" ><i className="fa-sharp fa-solid fa-location-dot" style={{ fontSize: "44px" }}></i></span>
+                                           <div className="card-view">
+                                              <div className="map"> <a target="_blank" href="https://maps.app.goo.gl/pdNRddpxjVnbR8DX6">
+                                                 <img src={map} alt="" /></a></div>
+                                              <h3 className="box-title">Near Green Mosque, Bin Omran, Doha</h3>
+                                              <a className="th-btn btn-fw" target="_blank" href="https://maps.app.goo.gl/pdNRddpxjVnbR8DX6">Open on Map</a>
+                                           </div>
+                                        </div>
                            </div>
                        </div>
                    </div>

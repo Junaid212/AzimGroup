@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import logo from '../../img/logo.svg';
+import logo from '../../img/logo.png';
 const Preloader = () => {
   const [loading, setLoading] = useState(true);
 
@@ -26,7 +26,7 @@ const Preloader = () => {
       <div id="preloader" className="preloader-inner">
         <img src={logo} alt="img" />
         <div className="txt-loading">
-          {['R', 'O', 'T', 'A', 'L'].map((letter, index) => (
+          {['A', 'Z', 'I', 'M','G','R','O','U','P'].map((letter, index) => (
             <span 
               key={index} 
               data-text-preloader={letter} 

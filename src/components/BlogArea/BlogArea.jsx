@@ -13,14 +13,14 @@ const BlogArea = (props) => {
             <div className="row justify-content-center">
                <div className="col-xl-6 col-xxl-5">
                   <div className="title-area text-center">
-                     <span className="sub-title">LATEST BLOG</span>
-                     <h2 className="sec-title">Room Refresh Service Morning Wake-Up Call Tour</h2>
+                     {/* <span className="sub-title">LATEST BLOG</span> */}
+                     <h2 className="sec-title">Products</h2>
                      <span className="title-img"><img src={titleimg} alt="shape" /></span>
                   </div>
                </div>
             </div>
             <div className="row gy-4">
-               {BlogData.slice(0,4).map((blog, index) => (
+               {BlogData.slice(0,8).map((blog, index) => (
                   <div className="col-xl-3 col-md-6" key={index}>
                      <div className="blog-card">
                         <Link onClick={ClickHandler} to={`/blog-details/${blog.slug}`} className="blog-img">
@@ -28,11 +28,11 @@ const BlogArea = (props) => {
                         </Link>
                         <div className="blog-content">
                            <div className="blog-meta">
-                              <Link onClick={ClickHandler} to='/blog'>{blog.date}</Link>
-                              <Link onClick={ClickHandler} to='/blog'>{blog.minet}</Link>
+                              {/* <Link onClick={ClickHandler} to='/blog'>{blog.date}</Link> */}
+                              {/* <Link onClick={ClickHandler} to='/blog'>{blog.minet}</Link> */}
                            </div>
-                           <h3 className="box-title"><Link onClick={ClickHandler} to={`/blog-details/${blog.slug}`}>Discover and book a wide range of hotels rooms</Link></h3>
-                           <Link onClick={ClickHandler} to={`/blog-details/${blog.slug}`} className="th-btn2 style2 th-icon">Read More</Link>
+                           <h3 className="box-title">{blog.title}</h3>
+                           {/* <Link onClick={ClickHandler} to={`/blog-details/${blog.slug}`} className="th-btn2 style2 th-icon">Read More</Link> */}
                         </div>
                      </div>
                   </div>

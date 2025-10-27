@@ -83,7 +83,7 @@ const App = () => {
                   <Route element={<NajilaFoodTrading/>} path='nijila-food-trading/:slug' />
                   <Route element={<CleaningAndHospitalityServices/>} path='hospitality-services/:slug' />
                   <Route element={<GoldenAutoElectrical/>} path='golden-auto-electrical/:slug' />
-                  <Route element={<VadakaraToKasargodRestaurant/>} path='vadakara-to-kasargog-reststaurent/:slug' />
+                  <Route element={<VadakaraToKasargodRestaurant/>} path='restaurent/:slug' />
                   <Route element={<GalleryPage />} path="gallery" />
                   <Route element={<BlogPage />} path="blog" />
                   <Route element={<BlogGridPage />} path="blog-grid" />

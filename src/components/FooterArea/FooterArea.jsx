@@ -52,13 +52,13 @@ const FooterArea = (props) => {
                         <h3 className="widget_title">Our Services</h3>
                         <div className="menu-all-pages-container">
                            <ul className="menu">
-                              <li><Link onClick={ClickHandler} to="/package">AZIM Facilities Management & services</Link></li>
-                              <li><Link onClick={ClickHandler} to="/room">One Way Limousine WLL</Link></li>
+                              <li><Link onClick={ClickHandler} to="/package">Facilities Management & services</Link></li>
+                              <li><Link onClick={ClickHandler} to="/room">One Way Limousine</Link></li>
                               <li><Link onClick={ClickHandler} to="/gallery">VenYou Events</Link></li>
-                              <li><Link onClick={ClickHandler} to="/review">Najila Food Trading</Link></li>
-                              <li><Link onClick={ClickHandler} to="/contact">Golden Vision Cleaning and Hospitality Services</Link></li>
-                              <li><Link onClick={ClickHandler} to="/contact">Golden Auto Electrical</Link></li>
-                              <li><Link onClick={ClickHandler} to="/contact">Vadakara To Kasargod Restaurant</Link></li>
+                              <li><Link onClick={ClickHandler} to="/review">Food Trading</Link></li>
+                              <li><Link onClick={ClickHandler} to="/contact">Cleaning and Hospitality Services</Link></li>
+                              <li><Link onClick={ClickHandler} to="/contact">Auto Electrical</Link></li>
+                              <li><Link onClick={ClickHandler} to="/contact">Restaurant</Link></li>
                               
                            </ul>
                         </div>
@@ -105,7 +105,7 @@ Doha-Qatar</p>
             <div className="container">
                 <div className="row gy-2 align-items-center">
                     <div className="col-lg-5">
-                        <p className="copyright-text">Copyright <i className="fal fa-copyright"></i> 2025 <Link onClick={ClickHandler} to="/">Rotal</Link>. All Rights Reserved.</p>
+                        <p className="copyright-text">Copyright <i className="fal fa-copyright"></i> 2025 by <Link onClick={ClickHandler} to="https://brightmedia.tech/" target='blank'>Bright Media.tech</Link>. All Rights Reserved.</p>
                     </div>
                     <div className="col-lg-7 text-center text-lg-end">
                         <div className="footer-links">

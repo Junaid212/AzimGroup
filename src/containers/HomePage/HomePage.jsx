@@ -15,6 +15,7 @@ import RoomsArea from '../../components/RoomsArea/RoomsArea';
 import Scrollbar from '../../components/Scrollbar/Scrollbar';
 import ServiceArea from '../../components/ServiceArea/ServiceArea';
 import TestimonialArea from '../../components/TestimonialArea/TestimonialArea';
+import CtaArea from '../../components/CtaArea/CtaArea';
 
 
 const HomePage = () => {
@@ -32,6 +33,7 @@ const HomePage = () => {
          {/* <AboutAreaS2 hclass={'about-area2 overflow-hidden shape-mockup-wrap'} /> */}
          <ServiceArea hclass={'overflow-hidden bg-shape space-top'} />
          <BrandArea hclass={'space bg-shape'} />
+         {/* <CtaArea hclass={' space-bottom'} /> */}
          {/* <HotelOffersArea hclass={'space-top overflow-hidden bg-shape'} /> */}
          {/* <GalleryArea hclass={'overflow-hidden bg-shape space-top'} /> */}
          {/* <TestimonialArea hclass={'overflow-hidden space-top bg-shape TestimonialOn'} /> */}

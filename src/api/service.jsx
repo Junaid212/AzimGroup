@@ -59,6 +59,7 @@ const ServiceData = [
       grid: grid1,
       Icon: Icon1,
       Icon2: service_1,
+      link: '/one-way-limousin-wll/1'
    },
    {
       id: '02',
@@ -71,6 +72,7 @@ const ServiceData = [
       grid: grid2,
       Icon: Icon2,
       Icon2: service_2,
+      link: '/facilities-management-services/2'
    },
    {
       id: '03',
@@ -83,6 +85,7 @@ const ServiceData = [
       grid: grid3,
       Icon: Icon3,
       Icon2: service_3,
+      link: '/venyou-events/3'
    },
    {
       id: '04',
@@ -95,6 +98,7 @@ const ServiceData = [
       grid: grid4,
       Icon: Icon4,
       Icon2: service_4,
+      link: '/nijila-food-trading/4'
    },
    {
       id: '05',
@@ -107,6 +111,7 @@ const ServiceData = [
       grid: grid5,
       Icon: Icon5,
       Icon2: service_5,
+      link: '/hospitality-services/5'
    },
    {
       id: '06',
@@ -119,6 +124,7 @@ const ServiceData = [
       grid: grid6,
       Icon: Icon6,
       Icon2: service_6,
+      link: '/golden-auto-electrical/6'
    },
    {
       id: '07',
@@ -130,6 +136,7 @@ const ServiceData = [
       image: Simg7,
       grid: grid7,
       Icon: Icon6,
+      link: '/restaurent/7'
    },
    {
       id: '08',
@@ -201,6 +208,7 @@ const ServiceData = [
       slug: '14',
       image: Simg10,
       Icon: Icon10,
+      
    },
     {
       id: '15',

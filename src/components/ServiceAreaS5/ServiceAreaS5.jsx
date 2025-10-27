@@ -20,7 +20,7 @@ const ServiceAreaS5 = () => {
                            <span className="sub-title2 style1">{item.num}</span>
                            <h3 className="box-title"><Link onClick={ClickHandler} to={`/service-details/${item.slug}`} >{item.title}</Link></h3>
                            <p className="box-text">{item.subtitle}</p>
-                           <div className=""><Link onClick={ClickHandler} to={`/service-details/${item.slug}`} className="th-btn2 style2">VIEW DETAILS</Link></div>
+                           <div className=""><Link onClick={ClickHandler} to={item.link} className="th-btn2 style2">VIEW DETAILS</Link></div>
                         </div>
                      </div>
                   </div>
