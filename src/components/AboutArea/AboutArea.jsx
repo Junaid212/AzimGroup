@@ -10,9 +10,10 @@ import feature2 from '../../img/icon/about_feature_2.svg'
 import feature3 from '../../img/icon/about_feature_3.svg'
 import feature4 from '../../img/icon/about_feature_4.svg'
 import CircleText from './CircleText';
-
-
-
+import { PiFediverseLogoThin } from 'react-icons/pi';
+import { PiCubeFocusThin } from 'react-icons/pi';
+import { PiRocketLaunchThin } from 'react-icons/pi';
+import { PiMedalMilitaryThin } from 'react-icons/pi';
 
 const AboutArea = (props) => {
    const ClickHandler = () => {
@@ -78,7 +79,7 @@ Join our satisfied clients and experience the difference today.</p>
                           <div className="box-icon">
                               <div className="color-masking">
                                   <div className="masking-src" ></div>
-                                  <img src={feature1} alt="Icon" />
+                                  <PiFediverseLogoThin size={56} className="about-feature-icon" />
                               </div>
                           </div>
                           <div className="box-content">
@@ -90,7 +91,7 @@ Join our satisfied clients and experience the difference today.</p>
                           <div className="box-icon">
                               <div className="color-masking">
                                   <div className="masking-src" ></div>
-                                  <img src={feature2} alt="Icon" />
+                                  <PiCubeFocusThin size={54} className="about-feature-icon" />
                               </div>
                           </div>
                           <div className="box-content">
@@ -102,7 +103,7 @@ Join our satisfied clients and experience the difference today.</p>
                           <div className="box-icon">
                               <div className="color-masking">
                                   <div className="masking-src" ></div>
-                                  <img src={feature3} alt="Icon" />
+                                  <PiRocketLaunchThin size={54} className="about-feature-icon" />
                               </div>
                           </div>
                           <div className="box-content">
@@ -114,7 +115,7 @@ Join our satisfied clients and experience the difference today.</p>
                           <div className="box-icon">
                               <div className="color-masking">
                                   <div className="masking-src" ></div>
-                                  <img src={feature4} alt="Icon" />
+                                  <PiMedalMilitaryThin size={54} className="about-feature-icon" />
                               </div>
                           </div>
                           <div className="box-content">
@@ -126,6 +127,19 @@ Join our satisfied clients and experience the difference today.</p>
               </div>
           </div>
       </div>
+
+      {/* Add CSS for hover effect */}
+      <style jsx>{`
+        .about-feature:hover .about-feature-icon {
+          color: white !important;
+          transition: color 0.3s ease;
+        }
+        
+        .about-feature {
+          transition: all 0.3s ease;
+          color: #BF930F;
+        }
+      `}</style>
   </div>
    );
 };

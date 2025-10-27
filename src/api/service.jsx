@@ -42,7 +42,7 @@ import service_3 from '../img/icon/service_1_3.svg'
 import service_4 from '../img/icon/service_1_4.svg'
 import service_5 from '../img/icon/service_1_5.svg'
 import service_6 from '../img/icon/service_1_6.svg'
-
+import { MdEmojiTransportation } from 'react-icons/md';
 
 
 
@@ -59,6 +59,7 @@ const ServiceData = [
       grid: grid1,
       Icon: Icon1,
       Icon2: service_1,
+      ReactIcon: MdEmojiTransportation,
       link: '/one-way-limousin-wll/1'
    },
    {
