@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import HoteleOfferData from '../../api/HotelOffers';
+import HoteleOfferData from '../../api/hotelOffers.jsx';
 import shapeImg from '../../img/shape/room-shape.png';
 import titleimg from '../../img/theme-img/title_icon.svg';
 
