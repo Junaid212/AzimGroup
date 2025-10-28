@@ -37,7 +37,7 @@ const AboutAreaS4 = (props) => {
                <div className="col-xl-4">
                   <div className="img-box4">
                      <div className="img1 th-parallax">
-                        <img src={Ab4} alt="Image" />
+                        <img src='src/img/new/26.png' alt="Image" />
                      </div>
 
                   </div>
@@ -89,7 +89,7 @@ const AboutAreaS4 = (props) => {
                <div className="col-xl-4">
                   <div className="img-box4">
                      <div className="img1 th-parallax">
-                        <img src={Ab4} alt="Image" />
+                        <img src='src/img/new/27.png' alt="Image" />
                      </div>
 
                   </div>

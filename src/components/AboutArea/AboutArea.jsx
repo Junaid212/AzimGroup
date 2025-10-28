@@ -66,7 +66,7 @@ Join our satisfied clients and experience the difference today.</p>
               <div className="col-lg-6 col-xxl-4">
                   <div className="img-box1">
                       <div className="img1">
-                          <img src={Ab1} alt="About" />
+                          <img src="src/img/new/13.png" alt="About" />
                       </div>
                       <div className="about-wrapp">
                           <CircleText text="* welcome to Azim Group* Committed to People, Committed to Future" />

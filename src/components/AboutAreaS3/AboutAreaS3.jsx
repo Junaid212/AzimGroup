@@ -7,7 +7,7 @@ import feature1 from '../../img/icon/about_feature_1.svg';
 import feature2 from '../../img/icon/about_feature_2.svg';
 import feature3 from '../../img/icon/about_feature_3.svg';
 import feature4 from '../../img/icon/about_feature_4.svg';
-import Ab4 from '../../img/normal/about_3.jpg';
+import Ab4 from '../../img/new/47.png';
 import VideoModal from '../ModalVideo/ModalVideo';
 import about2 from '../../img/normal/about_8_2.jpg'
 import about3 from '../../img/normal/about_8_3.jpg'

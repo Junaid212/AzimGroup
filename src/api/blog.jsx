@@ -1,14 +1,14 @@
 
 /* Image */
-import img1 from "../img/blog/blog_1_1.jpg";
-import img2 from "../img/blog/blog_1_2.jpg";
-import img3 from "../img/blog/blog_1_3.jpg";
-import img4 from "../img/blog/blog_1_4.jpg";
-import img5 from "../img/blog/blog_2_1.jpg";
-import img6 from "../img/blog/blog_2_2.jpg";
-import img7 from "../img/blog/blog_3_1.jpg";
-import img8 from "../img/blog/blog_3_2.jpg";
-import img9 from "../img/blog/blog_4_1.jpg";
+import img1 from "../img/new/55.png";
+import img2 from "../img/new/56.png";
+import img3 from "../img/new/57.png";
+import img4 from "../img/new/58.png";
+import img5 from "../img/new/59.png";
+import img6 from "../img/new/60.png";
+import img7 from "../img/new/61.png";
+import img8 from "../img/new/62.png";
+import img9 from "../img/new/47.png";
 import img10 from "../img/blog/blog_4_2.jpg";
 import img11 from "../img/blog/blog_4_3.jpg";
 
@@ -67,7 +67,7 @@ const BlogData = [
 
    {
       id: 5,
-      imageUrl: img4,
+      imageUrl: img5,
       grid: grid5,
       date: '16 Feb, 2025',
       minet: '08 min read',
@@ -78,7 +78,7 @@ const BlogData = [
 
    {
       id: 6,
-      imageUrl: img4,
+      imageUrl: img6,
       grid: grid6,
       date: '16 Feb, 2025',
       minet: '08 min read',
@@ -89,7 +89,7 @@ const BlogData = [
 
    {
       id: 7,
-      imageUrl: img4,
+      imageUrl: img7,
       grid: grid7,
       date: '15 Feb, 2025',
       minet: '08 min read',
@@ -100,7 +100,7 @@ const BlogData = [
 
    {
       id: 8,
-      imageUrl: img4,
+      imageUrl: img8,
       grid: grid8,
       date: '15 Feb, 2025',
       minet: '08 min read',

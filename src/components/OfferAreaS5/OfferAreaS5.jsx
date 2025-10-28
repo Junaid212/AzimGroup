@@ -8,6 +8,12 @@ import offer_2 from '../../img/offer/offer_6_2.jpg';
 import offer_3 from '../../img/offer/offer_6_3.jpg';
 import offer_4 from '../../img/offer/offer_6_4.jpg';
 import offer_5 from '../../img/offer/offer_6_5.jpg';
+import img2 from '../../img/new/40.png'
+import testimonialData from '../../api/testimonial';
+import img3 from '../../img/new/41.png'
+import img4 from '../../img/new/39.png'
+import img5 from '../../img/new/42.png'
+import img6 from '../../img/new/43.png'
 
 const OfferAreaS5 = (props) => {
    const ClickHandler = () => {
@@ -44,14 +50,14 @@ const OfferAreaS5 = (props) => {
                     <div className="offer-wrap6">
                         <div className="offer-tag-thumb global-img">
                             <div className="thumb">
-                                <img className="w-100" src={offer_1} alt="img" />
+                                <img className="w-100" src={img4} alt="img" />
                             </div>
                             {/* <span className="tag"><img src={tag} alt="img" /></span> */}
                         </div>
                         <div className="offer-list-wrap">
                             <div className="offer-list">
                                 <div className="box-img global-img">
-                                    <img src={offer_2} alt="img" />
+                                    <img src={img2} alt="img" />
                                 </div>
                                 {/* <div className="box-content">
                                     <h4 className="box-title"><Link onClick={ClickHandler} to="/room">Family Suite</Link></h4>
@@ -61,7 +67,7 @@ const OfferAreaS5 = (props) => {
                             </div>
                             <div className="offer-list">
                                 <div className="box-img global-img">
-                                    <img src={offer_3} alt="img" />
+                                    <img src={img3} alt="img" />
                                 </div>
                                 {/* <div className="box-content">
                                     <h4 className="box-title"><Link onClick={ClickHandler} to="/room">Premium Room</Link></h4>
@@ -71,7 +77,7 @@ const OfferAreaS5 = (props) => {
                             </div>
                             <div className="offer-list">
                                 <div className="box-img global-img">
-                                    <img src={offer_4} alt="img" />
+                                    <img src={img5} alt="img" />
                                 </div>
                                 {/* <div className="box-content">
                                     <h4 className="box-title"><Link onClick={ClickHandler} to="/room">Apartment</Link></h4>
@@ -81,7 +87,7 @@ const OfferAreaS5 = (props) => {
                             </div>
                             <div className="offer-list">
                                 <div className="box-img global-img">
-                                    <img src={offer_5} alt="img" />
+                                    <img src={img6} alt="img" />
                                 </div>
                                 {/* <div className="box-content">
                                     <h4 className="box-title"><Link onClick={ClickHandler} to="/room">Small Room</Link></h4>

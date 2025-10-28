@@ -10,13 +10,13 @@ import Simg8 from '../img/service/service_card_5_2.jpg'
 import Simg9 from '../img/service/service_card_5_3.jpg'
 import Simg10 from '../img/service/service_card_5_4.jpg'
 
-import grid1 from '../img/service/service_grid_1.jpg'
-import grid2 from '../img/service/service_grid_2.jpg'
-import grid3 from '../img/service/service_grid_3.jpg'
-import grid4 from '../img/service/service_grid_4.jpg'
-import grid5 from '../img/service/service_grid_5.jpg'
-import grid6 from '../img/service/service_grid_6.jpg'
-import grid7 from '../img/service/service_grid_7.jpg'
+import grid1 from '../img/new/28.png'
+import grid2 from '../img/new/29.png'
+import grid3 from '../img/new/30.png'
+import grid4 from '../img/new/31.png'
+import grid5 from '../img/new/32.png'
+import grid6 from '../img/new/33.png'
+import grid7 from '../img/new/34.png'
 import grid8 from '../img/service/service_grid_8.jpg'
 
 
@@ -42,7 +42,6 @@ import service_3 from '../img/icon/service_1_3.svg'
 import service_4 from '../img/icon/service_1_4.svg'
 import service_5 from '../img/icon/service_1_5.svg'
 import service_6 from '../img/icon/service_1_6.svg'
-import { MdEmojiTransportation } from 'react-icons/md';
 
 
 
@@ -55,11 +54,10 @@ const ServiceData = [
       title2: 'Air Conditioning',
       subtitle: 'The wellbeing of our guests and staff is of paramount importance. Our Covid-19 strategy includes deep cleaning rooms between guests.',
       slug: '1',
-      image: Simg1,
+      image: 'src/img/new/14.png',
       grid: grid1,
       Icon: Icon1,
       Icon2: service_1,
-      ReactIcon: MdEmojiTransportation,
       link: '/one-way-limousin-wll/1'
    },
    {
@@ -69,7 +67,7 @@ const ServiceData = [
       title2: 'Bath',
       subtitle: 'Crafting Elevated Experiences: Where Excellence Meets Service. Your space, our commitment.',
       slug: '2',
-      image: Simg2,
+      image: 'src/img/new/15.png',
       grid: grid2,
       Icon: Icon2,
       Icon2: service_2,
@@ -82,7 +80,7 @@ const ServiceData = [
       title2: 'Haidryer',
       subtitle: 'The wellbeing of our guests and staff is of paramount importance. Our Covid-19 strategy includes deep cleaning rooms between guests.',
       slug: '3',
-      image: Simg3,
+      image: 'src/img/new/16.png',
       grid: grid3,
       Icon: Icon3,
       Icon2: service_3,
@@ -95,7 +93,7 @@ const ServiceData = [
       title2: 'King bed',
       subtitle: 'The wellbeing of our guests and staff is of paramount importance. Our Covid-19 strategy includes deep cleaning rooms between guests.',
       slug: '4',
-      image: Simg4,
+      image: 'src/img/new/17.png',
       grid: grid4,
       Icon: Icon4,
       Icon2: service_4,
@@ -108,7 +106,7 @@ const ServiceData = [
       title2: 'Mini Bar',
       subtitle: 'The wellbeing of our guests and staff is of paramount importance. Our Covid-19 strategy includes deep cleaning rooms between guests.',
       slug: '5',
-      image: Simg5,
+      image: 'src/img/new/18.png',
       grid: grid5,
       Icon: Icon5,
       Icon2: service_5,
@@ -121,7 +119,7 @@ const ServiceData = [
       title2: 'Televesion',
       subtitle: 'The wellbeing of our guests and staff is of paramount importance. Our Covid-19 strategy includes deep cleaning rooms between guests.',
       slug: '6',
-      image: Simg6,
+      image: 'src/img/new/19.png',
       grid: grid6,
       Icon: Icon6,
       Icon2: service_6,
@@ -134,7 +132,7 @@ const ServiceData = [
       title2: 'STAY & DINE',
       subtitle: 'Whats life without good food. Both our restaurants offer a variety of cuisine to try. Cooked with fresh vegetables and herbs that you can pick from the farm.',
       slug: '7',
-      image: Simg7,
+      image: 'src/img/new/20.png',
       grid: grid7,
       Icon: Icon6,
       link: '/restaurent/7'
@@ -146,7 +144,7 @@ const ServiceData = [
       title2: 'Boundless Progress',
       subtitle: "Azim Group's trajectory is marked by dynamic growth, evolving and expanding its presence across industries, showcasing resilience and adaptability.",
       slug: '8',
-      image: Simg8,
+      image: 'src/img/new/35.png',
       grid: grid8,
       Icon: Icon6,
    },
@@ -157,7 +155,7 @@ const ServiceData = [
       title2: 'Boundless Progress',
       subtitle: "Azim Group's success lies in its adaptive approach, navigating challenges with resilience. Its ability to evolve has positioned the group as a dynamic force, ready for the future.",
       slug: '9',
-      image: Simg9,
+      image: 'src/img/new/36.png',
       Icon: Icon6,
    },
    {
@@ -167,7 +165,7 @@ const ServiceData = [
       title2: 'Boundless Progress',
       subtitle: "Azim Group is renowned for pioneering innovative solutions, constantly pushing boundaries to offer products and services that set industry benchmarks.",
       slug: '10',
-      image: Simg10,
+      image: 'src/img/new/37.png',
       Icon: Icon6,
    },
    {

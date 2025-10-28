@@ -10,8 +10,8 @@ const ServiceAreaS3 = () => {
       <section className="service-area3 overflow-hidden space">
         <div className="container">
             <div className="title-area text-center">
-                <span className="sub-title2 style1 ">HOTEL AMENITIES</span>
-                <h2 className="sec-title text-white">All Facilities at Rotal</h2>
+                <span className="sub-title2 style1 ">Services</span>
+                <h2 className="sec-title text-white">All Facilities at Azim Group</h2>
             </div>
             <div className="row gy-4">
                {ServiceData.slice(0,7).map((item,sky) =>(

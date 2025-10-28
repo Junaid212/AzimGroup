@@ -4,7 +4,7 @@ import VideoModal from '../ModalVideo/ModalVideo';
 
 // images
 import bgShap from '../../img/bg/about_bg_8.png'
-import about1 from '../../img/normal/about_8_1.jpg'
+import about1 from '../../img/new/67.png'
 import about2 from '../../img/normal/about_8_2.jpg'
 import about3 from '../../img/normal/about_8_3.jpg'
 import about4 from '../../img/normal/about_8_4.jpg'

@@ -17,7 +17,7 @@ import AboutAreaS7 from '../../components/AboutAreaS7/AboutAreaS7';
 import feature2 from '../../img/icon/about_feature_2.svg'
 import feature3 from '../../img/icon/about_feature_3.svg'
 import feature4 from '../../img/icon/about_feature_4.svg'
-import Ab1 from '../../img/normal/about_1.jpg'
+import Ab1 from '../../img/new/70.png'
 import map from '../../img/shape/map.png';
 
 

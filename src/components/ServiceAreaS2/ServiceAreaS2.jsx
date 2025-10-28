@@ -2,22 +2,29 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import ServiceData from '../../api/service';
 
-
 const ServiceAreaS2 = (props) => {
    const ClickHandler = () => {
       window.scrollTo(10, 0);
    }
+
+   // Array of gradient colors for each card
+   const gradientColors = [
+      'linear-gradient(90deg,rgba(248, 151, 51, 1) 53%, rgba(255, 195, 0, 1) 100%)',
+      'linear-gradient(90deg,rgba(0, 183, 190, 1) 0%, rgba(0, 120, 106, 1) 96%)', 
+      'linear-gradient(90deg,rgba(248, 151, 51, 1) 53%, rgba(255, 195, 0, 1) 100%)'  
+   ];
+
    return (
       <section className={"" + props.hclass} id="service-sec">
-         <div className="container">
-            <div className="row gy-60">
+         <div className="container" >
+            <div className="row gy-0">
                {ServiceData.slice(7, 10).map((item, iservic) => (
                   <div className="col-12 service-card-wrap" key={iservic}>
-                     <div className="service-card style3" style={{backgroundColor:'#181A1E'}}>
+                     <div className="service-card style3" style={{background: gradientColors[iservic]}}>
                         <div className="box-img">
                            <img src={item.image} alt="Icon" />
                         </div>
-                        <div className="box-content" style={{backgroundColor:'#181A1E'}}>
+                        <div className="box-content" style={{background: 'transparent'}}>
                            <h6 className="box-subtitle">{item.title2}</h6>
                            <h3 className="box-title"><Link onClick={ClickHandler} to={`/service-details/${item.slug}`}>{item.title}</Link></h3>
                            <p className="box-text">{item.subtitle}</p>
@@ -26,10 +33,7 @@ const ServiceAreaS2 = (props) => {
                      </div>
                   </div>
                ))}
-
             </div>
-            {/* <div className="d-flex justify-content-center mt-60 text-center"><Link onClick={ClickHandler} to="/package" className="th-btn2 style4 ser-btn">Explore More</Link>
-            </div> */}
          </div>
       </section>
    );

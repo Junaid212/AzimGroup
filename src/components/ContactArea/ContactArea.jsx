@@ -1,6 +1,6 @@
 import { useRef, useState } from "react";
 import SimpleReactValidator from "simple-react-validator";
-import contactimg from '../../img/normal/contact-img.jpg';
+import contactimg from '../../img/71.png';
 
 const ContactArea = () => {
    const [formData, setFormData] = useState({

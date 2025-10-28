@@ -14,7 +14,7 @@ import Simg1 from '../../img/service/service_inner_1.jpg';
 import Simg2 from '../../img/service/service_inner_2.jpg';
 import AboutAreaS3 from '../../components/AboutAreaS3/AboutAreaS3';
 import PricingArea from '../../components/PricingArea/PricingArea';
-import Ab1 from '../../img/normal/about_1.jpg'
+import Ab1 from '../../img/new/49.png'
 
 
 

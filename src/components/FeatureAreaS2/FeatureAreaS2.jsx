@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 // icon
-import feaat1 from '../../img/normal/why_1.jpg'
+import feaat1 from '../../img/new/69.png'
 import hotelIcon1 from '../../img/icon/hotel-icon1-5.svg'
 import hotelIcon2 from '../../img/icon/hotel-icon1-1.svg'
 import hotelIcon3 from '../../img/icon/hotel-icon1-6.svg'

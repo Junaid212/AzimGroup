@@ -10,7 +10,7 @@ import T9 from "../img/testimonial/testi_3_3.jpg";
 import T10 from "../img/testimonial/testi_4_1.jpg";
 import T11 from "../img/testimonial/testi_4_2.jpg";
 
-import TB1 from "../img/testimonial/testi_c_1.jpg";
+import TB1 from "../img/new/68.png";
 import TB2 from "../img/testimonial/testi_c_2.jpg";
 import TB3 from "../img/testimonial/testi_c_3.jpg";
 

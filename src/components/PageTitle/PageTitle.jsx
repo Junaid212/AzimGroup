@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import bgImage from '../../img/bg/breadcumb-bg.jpg'
+import bgImage from '../../img/new/38.png'
 
 const PageTitle = (props) => {
  const ClickHandler = () => {
@@ -10,7 +10,7 @@ const PageTitle = (props) => {
        <div className="breadcumb-banner">
         <div className="breadcumb-wrapper background-image" style={{backgroundImage:`url(${bgImage})`}}>
             <div className="container">
-                <div className="breadcumb-content">
+                <div className="breadcumb-content" >
                     <h1 className="breadcumb-title">{props.pageTitle}</h1>
                     <ul className="breadcumb-menu">
                         <li><Link onClick={ClickHandler} to="/">Home</Link></li>

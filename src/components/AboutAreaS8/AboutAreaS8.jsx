@@ -63,7 +63,7 @@ const AboutAreaS8 = () => {
                <div className="col-xl-7">
                   <div className="img-box6">
                      <div className="img1">
-                        <img src={Ab1} alt="" />
+                        <img src='src/img/new/23.png' alt="" />
                         <div className="about-wrapp">
                            <div className="discount-wrapp">
                               {/* <VideoModal vidclass={'play-btn popup-video'} /> */}
@@ -74,9 +74,9 @@ const AboutAreaS8 = () => {
                      </div>
                      <div className="about-vouchers">
                         <div className="box-content">
-                           <h3 className="box-title">Gift Vouchers</h3>
-                           <p className="text">Get the gift vouchers of Rotal meals, spa visits and more.</p>
-                           <Link onClick={ClickHandler} to="/contact" className="th-btn th-radius">GET VOUCHERS</Link>
+                           <h3 className="box-title">Get Brochure</h3>
+                           <p className="text">Empowering Growth, Uniting Excellence to Shape Tomorrow's Success</p>
+                           <Link onClick={ClickHandler} to="/contact" className="th-btn th-radius">Download</Link>
                         </div>
                         <div className="customer-review">
                            <div className="box-review">
@@ -89,10 +89,10 @@ const AboutAreaS8 = () => {
                         </div>
                      </div>
                      <div className="img2">
-                        <img src={Ab2} alt="" />
+                        <img src='src/img/new/24.png' alt="" />
                      </div>
                      <div className="img3">
-                        <img src={Ab3} alt="" />
+                        <img src='src/img/new/25.png' alt="" />
                      </div>
                   </div>
                </div>
