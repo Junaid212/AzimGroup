@@ -22,7 +22,7 @@ const HomePage = () => {
 
    return (
       <Fragment>
-         {/* <ColorScheme /> */}
+         <ColorScheme />
          <HeaderArea hclass={'th-header header-layout1'}  />
          <HeroArea />
          <AboutArea hclass={'about-shape overflow-hidden bg-shape'} />
