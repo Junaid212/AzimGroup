@@ -35,12 +35,13 @@ import Icon11 from '../img/icon/service_2_5.svg'
 import Icon12 from '../img/icon/service_2_6.svg'
 import Icon13 from '../img/icon/service_2_7.svg'
 import Icon14 from '../img/icon/service_2_8.svg'
-import service_1 from '../img/icon/service_1_1.svg'
-import service_2 from '../img/icon/service_1_2.svg'
-import service_3 from '../img/icon/service_1_3.svg'
-import service_4 from '../img/icon/service_1_4.svg'
-import service_5 from '../img/icon/service_1_5.svg'
-import service_6 from '../img/icon/service_1_6.svg'
+import service_1 from '../img/new/14.png'
+import service_2 from '../img/new/15.png'
+import service_3 from '../img/new/16.png'
+import service_4 from '../img/new/17.png'
+import service_5 from '../img/new/18.png'
+import service_6 from '../img/new/19.png'
+import service_7 from '../img/new/20.png'
 import { PiCarThin } from "react-icons/pi";
 
 
@@ -53,7 +54,7 @@ const ServiceData = [
       title2: 'Air Conditioning',
       subtitle: 'The wellbeing of our guests and staff is of paramount importance. Our Covid-19 strategy includes deep cleaning rooms between guests.',
       slug: '1',
-      image: 'src/img/new/14.png',
+      image: service_1,
       grid: grid1,
       Icon: Icon1,
       Icon2: service_1,
@@ -66,7 +67,7 @@ const ServiceData = [
       title2: 'Bath',
       subtitle: 'Crafting Elevated Experiences: Where Excellence Meets Service. Your space, our commitment.',
       slug: '2',
-      image: 'src/img/new/15.png',
+      image: service_2,
       grid: grid2,
       Icon: Icon2,
       Icon2: service_2,
@@ -79,7 +80,7 @@ const ServiceData = [
       title2: 'Haidryer',
       subtitle: 'The wellbeing of our guests and staff is of paramount importance. Our Covid-19 strategy includes deep cleaning rooms between guests.',
       slug: '3',
-      image: 'src/img/new/16.png',
+      image: service_3,
       grid: grid3,
       Icon: Icon3,
       Icon2: service_3,
@@ -92,7 +93,7 @@ const ServiceData = [
       title2: 'King bed',
       subtitle: 'The wellbeing of our guests and staff is of paramount importance. Our Covid-19 strategy includes deep cleaning rooms between guests.',
       slug: '4',
-      image: 'src/img/new/17.png',
+      image: service_4,
       grid: grid4,
       Icon: Icon4,
       Icon2: service_4,
@@ -105,7 +106,7 @@ const ServiceData = [
       title2: 'Mini Bar',
       subtitle: 'The wellbeing of our guests and staff is of paramount importance. Our Covid-19 strategy includes deep cleaning rooms between guests.',
       slug: '5',
-      image: 'src/img/new/18.png',
+      image: service_5,
       grid: grid5,
       Icon: Icon5,
       Icon2: service_5,
@@ -118,7 +119,7 @@ const ServiceData = [
       title2: 'Televesion',
       subtitle: 'The wellbeing of our guests and staff is of paramount importance. Our Covid-19 strategy includes deep cleaning rooms between guests.',
       slug: '6',
-      image: 'src/img/new/19.png',
+      image: service_6,
       grid: grid6,
       Icon: Icon6,
       Icon2: service_6,
@@ -131,7 +132,7 @@ const ServiceData = [
       title2: 'STAY & DINE',
       subtitle: 'Whats life without good food. Both our restaurants offer a variety of cuisine to try. Cooked with fresh vegetables and herbs that you can pick from the farm.',
       slug: '7',
-      image: 'src/img/new/20.png',
+      image: service_7,
       grid: grid7,
       Icon: Icon6,
       link: '/restaurent/7'
