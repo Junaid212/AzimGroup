@@ -7,30 +7,30 @@ import 'swiper/css/thumbs';
 import { Autoplay, EffectFade, Thumbs } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import Sliderimg1 from '../../img/hero/hero_bg_1_1.jpg';
-import Sliderimg2 from '../../img/hero/hero_bg_1_2.jpg';
-import Sliderimg3 from '../../img/hero/hero_bg_1_3.jpg';
+import Sliderimg1 from '../../img//new/10.png';
+import Sliderimg2 from '../../img//new/11.png';
+import Sliderimg3 from '../../img//new/12.png';
 import Bedimg from '../../img/icon/bed.svg';
 import Logoimg from '../../img/logo.png';
 
 const slides = [
    {
       id: 1,
-      bg: 'src/img/new/10.png',
+      bg: Sliderimg1,
       title: 'Delivering Excellence Across Diverse Horizons',
       subtitle: 'Committed to People, Committed to Future.',
       reviews: '128k+ Reviews',
    },
    {
       id: 2,
-      bg: 'src/img/new/11.png',
+      bg: Sliderimg2,
       title: 'Quest For Excellence Begins Here',
       subtitle: 'Committed to People, Committed to Future.',
       reviews: '128k+ Reviews',
    },
    {
       id: 3,
-      bg: 'src/img/new/12.png',
+      bg: Sliderimg3,
       title: 'Discover Our Exciting Upcoming Events',
       subtitle: 'Committed to People, Committed to Future.',
       reviews: '128k+ Reviews',

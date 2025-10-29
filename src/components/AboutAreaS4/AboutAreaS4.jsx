@@ -3,7 +3,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
-import Ab4 from '../../img/normal/about_4.jpg';
+import Ab4 from '../../img//new/26.png';
+import Ab5 from '../../img//new/27.png';
 import Avater from '../../img/normal/about_avater2.png';
 import Signature from '../../img/normal/signature2.svg';
 
@@ -37,7 +38,7 @@ const AboutAreaS4 = (props) => {
                <div className="col-xl-4">
                   <div className="img-box4">
                      <div className="img1 th-parallax">
-                        <img src='src/img/new/26.png' alt="Image" />
+                        <img src={Ab4} alt="Image" />
                      </div>
 
                   </div>
@@ -89,7 +90,7 @@ const AboutAreaS4 = (props) => {
                <div className="col-xl-4">
                   <div className="img-box4">
                      <div className="img1 th-parallax">
-                        <img src='src/img/new/27.png' alt="Image" />
+                        <img src={Ab5} alt="Image" />
                      </div>
 
                   </div>

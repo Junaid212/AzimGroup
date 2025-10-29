@@ -1,8 +1,8 @@
 import CountUp from "react-countup";
 import { Link } from "react-router-dom";
-import Ab1 from '../../img/normal/about_7.jpg';
-import Ab2 from '../../img/normal/about_8.jpg';
-import Ab3 from '../../img/normal/about_9.jpg';
+import Ab1 from '../../img//new/23.png';
+import Ab2 from '../../img//new/24.png';
+import Ab3 from '../../img//new/25.png';
 import title2 from '../../img/theme-img/title_icon2.svg'
 import CircleTextS2 from "../CircleTextS2/CircleTextS2";
 import VideoModal from "../ModalVideo/ModalVideo";
@@ -63,7 +63,7 @@ const AboutAreaS8 = () => {
                <div className="col-xl-7">
                   <div className="img-box6">
                      <div className="img1">
-                        <img src='src/img/new/23.png' alt="" />
+                        <img src={Ab1} alt="" />
                         <div className="about-wrapp">
                            <div className="discount-wrapp">
                               {/* <VideoModal vidclass={'play-btn popup-video'} /> */}
@@ -89,10 +89,10 @@ const AboutAreaS8 = () => {
                         </div>
                      </div>
                      <div className="img2">
-                        <img src='src/img/new/24.png' alt="" />
+                        <img src={Ab2} alt="" />
                      </div>
                      <div className="img3">
-                        <img src='src/img/new/25.png' alt="" />
+                        <img src={Ab3} alt="" />
                      </div>
                   </div>
                </div>

@@ -1,7 +1,7 @@
 /* image */
-import Simg1 from '../img/service/service_card_1.jpg'
-import Simg2 from '../img/service/service_card_2.jpg'
-import Simg3 from '../img/service/service_card_3.jpg'
+import Simg1 from '../img/new/35.png'
+import Simg2 from '../img/new/36.png'
+import Simg3 from '../img/new/37.png'
 import Simg4 from '../img/service/service_card_4.jpg'
 import Simg5 from '../img/service/service_card_5.jpg'
 import Simg6 from '../img/service/service_card_6.jpg'
@@ -144,7 +144,7 @@ const ServiceData = [
       title2: 'Boundless Progress',
       subtitle: "Azim Group's trajectory is marked by dynamic growth, evolving and expanding its presence across industries, showcasing resilience and adaptability.",
       slug: '8',
-      image: 'src/img/new/35.png',
+      image: Simg1,
       grid: grid8,
       Icon: Icon6,
    },
@@ -155,7 +155,7 @@ const ServiceData = [
       title2: 'Boundless Progress',
       subtitle: "Azim Group's success lies in its adaptive approach, navigating challenges with resilience. Its ability to evolve has positioned the group as a dynamic force, ready for the future.",
       slug: '9',
-      image: 'src/img/new/36.png',
+      image: Simg2,
       Icon: Icon6,
    },
    {
@@ -165,7 +165,7 @@ const ServiceData = [
       title2: 'Boundless Progress',
       subtitle: "Azim Group is renowned for pioneering innovative solutions, constantly pushing boundaries to offer products and services that set industry benchmarks.",
       slug: '10',
-      image: 'src/img/new/37.png',
+      image: Simg3,
       Icon: Icon6,
    },
    {
