@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import CountUp from 'react-countup';
 
-import Ab1 from '../../img/normal/about_1.jpg'
+import Ab1 from '../../img/new/13.png'
 import title from '../../img/theme-img/ab-logo.png'
 import title2 from '../../img/theme-img/title_icon2.svg'
 import feature1 from '../../img/icon/about_feature_1.svg'
@@ -66,7 +66,8 @@ Join our satisfied clients and experience the difference today.</p>
               <div className="col-lg-6 col-xxl-4">
                   <div className="img-box1">
                       <div className="img1">
-                          <img src="src/img/new/13.png" alt="About" />
+                          <img src={Ab1} alt="About" />
+                          
                       </div>
                       <div className="about-wrapp">
                           <CircleText text="* welcome to Azim Group* Committed to People, Committed to Future" />
