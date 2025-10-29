@@ -56,7 +56,7 @@ const ServiceData = [
       slug: '1',
       image: service_1,
       grid: grid1,
-      Icon: Icon1,
+      Icon: Icon10,
       Icon2: service_1,
       link: '/one-way-limousin-wll/1'
    },
@@ -95,7 +95,7 @@ const ServiceData = [
       slug: '4',
       image: service_4,
       grid: grid4,
-      Icon: Icon4,
+      Icon: Icon6,
       Icon2: service_4,
       link: '/nijila-food-trading/4'
    },
@@ -121,7 +121,7 @@ const ServiceData = [
       slug: '6',
       image: service_6,
       grid: grid6,
-      Icon: Icon6,
+      Icon: Icon10,
       Icon2: service_6,
       link: '/golden-auto-electrical/6'
    },
