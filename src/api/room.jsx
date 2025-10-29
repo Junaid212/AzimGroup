@@ -26,10 +26,10 @@ import img4_5 from "../img/room/room_4_5.jpg";
 import img4_6 from "../img/room/room_4_6.jpg";
 
 
-import img2_1 from "../img/room/room_2_1.jpg";
-import img2_2 from "../img/room/room_2_2.jpg";
-import img2_3 from "../img/room/room_2_3.jpg";
-import img2_4 from "../img/room/room_2_4.jpg";
+import img2_1 from "../img/new/72.png";
+import img2_2 from "../img/new/73.png";
+import img2_3 from "../img/new/74.png";
+import img2_4 from "../img/new/75.png";
 import img2_5 from "../img/room/room_2_5.jpg";
 import img2_6 from "../img/room/room_2_6.jpg";
 

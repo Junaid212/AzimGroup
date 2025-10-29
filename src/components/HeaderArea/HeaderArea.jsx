@@ -63,11 +63,15 @@ const HeaderArea = (props) => {
                   <div className="menu-area">
                      <div className="row align-items-center justify-content-between">
                         <div className="col-auto">
-                           <div className="header-logo">
-                              <Link onClick={ClickHandler} to="/">
-                                 <img src={Logo} alt="Rotal" style={{height:'54px'}}/></Link>
-                           </div>
-                        </div>
+  <div style={{display: 'flex', alignItems: 'center', gap: '25px'}}>
+    <div className="header-logo">
+      <Link onClick={ClickHandler} to="/">
+        <img src={Logo} alt="Rotal" style={{height:'54px'}}/>
+      </Link>
+    </div>
+    <div><h4 style={{marginTop:'15px',color:'#F89733'}}>Azim Group</h4></div>
+  </div>
+</div>
                         <div className="col-auto">
                            <nav className="main-menu d-none d-lg-inline-block">
                               <ul>

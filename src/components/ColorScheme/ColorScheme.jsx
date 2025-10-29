@@ -36,7 +36,7 @@ const ColorScheme = () => {
 
 
 
-   const [themeColor, setThemeColor] = useState('#bf930f');
+   const [themeColor, setThemeColor] = useState('#F89733');
    const [isSwitcherActive, setIsSwitcherActive] = useState(false);
    const predefinedColors = [
       '#2A07F9',

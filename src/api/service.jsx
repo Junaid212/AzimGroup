@@ -35,14 +35,13 @@ import Icon11 from '../img/icon/service_2_5.svg'
 import Icon12 from '../img/icon/service_2_6.svg'
 import Icon13 from '../img/icon/service_2_7.svg'
 import Icon14 from '../img/icon/service_2_8.svg'
-
 import service_1 from '../img/icon/service_1_1.svg'
 import service_2 from '../img/icon/service_1_2.svg'
 import service_3 from '../img/icon/service_1_3.svg'
 import service_4 from '../img/icon/service_1_4.svg'
 import service_5 from '../img/icon/service_1_5.svg'
 import service_6 from '../img/icon/service_1_6.svg'
-
+import { PiCarThin } from "react-icons/pi";
 
 
 

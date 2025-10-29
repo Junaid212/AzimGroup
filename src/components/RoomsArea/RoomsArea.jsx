@@ -41,7 +41,7 @@ const RoomsArea = (props) => {
                            {/* <div><Link onClick={ClickHandler} to={`/room-details/${room.slug}`} className="th-btn2 style2">VIEW DETAILS</Link></div> */}
                         </div>
                         <div className="box-img global-img">
-                           <img src={room.img} alt="" />
+                           <img src={room.imgRoom2} alt="" />
                            {/* <span className="discount">{room.discount} / NIGHT</span> */}
                         </div>
 
