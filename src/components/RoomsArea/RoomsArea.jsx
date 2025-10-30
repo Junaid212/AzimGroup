@@ -27,7 +27,7 @@ const RoomsArea = (props) => {
                      <div className="room-card style-flex">
                         <div className="box-content">
                            <div className="box-number">{room.number}</div>
-                           <h3 className="box-title"><Link onClick={ClickHandler} to="/room">{room.title}</Link></h3>
+                           <h3 className="box-title">{room.title}</h3>
                            <div className="box-review">
                               {[...Array(5)].map((_, i) => (
                                  <i key={i} className="fa-sharp fa-solid fa-star"></i>
@@ -51,7 +51,7 @@ const RoomsArea = (props) => {
 
                <div className="col-xxl-6 align-self-center">
                   <div className="room-btn text-center">
-                     <Link to="/room" onClick={ClickHandler} className="th-btn2 style3 th-icon">EXPLORE
+                     <Link to="/service" onClick={ClickHandler} className="th-btn2 style3 th-icon">EXPLORE
                         ALL
                      </Link>
                   </div>

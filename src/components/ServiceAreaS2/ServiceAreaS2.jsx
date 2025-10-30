@@ -26,7 +26,7 @@ const ServiceAreaS2 = (props) => {
                         </div>
                         <div className="box-content" style={{background: 'transparent'}}>
                            <h6 className="box-subtitle">{item.title2}</h6>
-                           <h3 className="box-title"><Link onClick={ClickHandler} to={`/service-details/${item.slug}`}>{item.title}</Link></h3>
+                           <h3 className="box-title">{item.title}</h3>
                            <p className="box-text">{item.subtitle}</p>
                            {/* <Link onClick={ClickHandler} to={`/service-details/${item.slug}`} className="th-btn2 style2 th-icon">LEARN MORE</Link> */}
                         </div>

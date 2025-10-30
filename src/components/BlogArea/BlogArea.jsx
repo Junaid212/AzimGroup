@@ -23,7 +23,7 @@ const BlogArea = (props) => {
                {BlogData.slice(0,8).map((blog, index) => (
                   <div className="col-xl-3 col-md-6" key={index}>
                      <div className="blog-card">
-                        <Link onClick={ClickHandler} to={`/blog-details/${blog.slug}`} className="blog-img">
+                        <Link onClick={ClickHandler} to='#' className="blog-img">
                            <img src={blog.imageUrl} alt="blog image" />
                         </Link>
                         <div className="blog-content">

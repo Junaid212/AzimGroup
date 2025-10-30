@@ -96,7 +96,7 @@ const HeroSlider = () => {
                                  data-ani="slideinup"
                                  data-ani-delay="0.8s"
                               >
-                                 <Link to="/room" onClick={ClickHandler} className="th-btn2 style3">
+                                 <Link to="/about" onClick={ClickHandler} className="th-btn2 style3">
                                     EXPLORE NOW 
                                     {/* <img src={Bedimg} alt="bed icon" /> */}
                                  </Link>

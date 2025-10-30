@@ -50,7 +50,7 @@ const AboutAreaS8 = () => {
                      <div className="divider"></div>
                   </div>
                   <div className="btn-group mt-60">
-                     <a href="about.html" className="th-btn extra-btn th-radius">LEARN MORE</a>
+                     <a href="about" className="th-btn extra-btn th-radius">LEARN MORE</a>
                      {/* <div className="call-info style2">
                         <div className="call-icon"><a href="tel:+00123456789"><i className="fa-sharp fa-light fa-phone-volume"></i></a>
                         </div>
