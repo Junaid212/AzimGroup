@@ -3,8 +3,8 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
-import Ab4 from '../../img//new/26.png';
-import Ab5 from '../../img//new/27.png';
+import Ab4 from '../../img//new/113.png';
+import Ab5 from '../../img//new/114.png';
 import Avater from '../../img/normal/about_avater2.png';
 import Signature from '../../img/normal/signature2.svg';
 
