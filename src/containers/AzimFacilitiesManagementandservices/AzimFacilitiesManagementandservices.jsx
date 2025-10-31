@@ -14,7 +14,7 @@ import Simg1 from '../../img/service/service_inner_1.jpg';
 import Simg2 from '../../img/service/service_inner_2.jpg';
 import AboutAreaS3 from '../../components/AboutAreaS3/AboutAreaS3';
 import EventArea from '../../components/EventArea/EventArea';
-import Ab1 from '../../img/new/48.png'
+import Ab1 from '../../img/new/109.png'
 import title from '../../img/theme-img/ab-logo.png'
 import title2 from '../../img/theme-img/title_icon2.svg'
 import feature1 from '../../img/icon/about_feature_1.svg'

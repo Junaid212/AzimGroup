@@ -21,10 +21,11 @@ import about5 from '../../img/new/96.png';
 import about6 from '../../img/new/97.png';
 import about7 from '../../img/new/98.png';
 import titleimg from '../../img/theme-img/title_icon.svg'
-import Ab1 from '../../img/new/48.png'
+import Ab1 from '../../img/new/112.mp4'
 import feature2 from '../../img/icon/about_feature_2.svg'
 import feature3 from '../../img/icon/about_feature_3.svg'
 import feature4 from '../../img/icon/about_feature_4.svg'
+import EventArea from '../../components/EventArea/EventArea';
 
 
 const HomePage = () => {
@@ -34,6 +35,7 @@ const HomePage = () => {
          <ColorScheme />
          <HeaderArea hclass={'th-header header-layout1'}  />
          <HeroArea />
+         {/* <CtaArea hclass={' space-bottom'} /> */}
          <AboutArea hclass={'about-shape overflow-hidden bg-shape'} />
          <RoomsArea hclass={'overflow-hidden bg-shape space-top'} />
          {/* <HotelArea hclass={'bg-shape space-top overflow-hidden'} /> */}
@@ -87,8 +89,17 @@ const HomePage = () => {
                        <div className="col-lg-6 col-xxl-6">
                            <div className="img-box1">
                                <div className="img1">
-                                   <img src={Ab1} alt="About" />
-                               </div>
+    <video 
+        src={Ab1} 
+        alt="About"
+        autoPlay 
+        muted 
+        loop 
+        playsInline
+        className="w-100 h-100"
+        style={{ objectFit: 'cover' }}
+    />
+</div>
                                {/* <div className="about-wrapp">
                                    <CircleText text="* welcome to Azim Group* Committed to People, Committed to Future" />
                                </div> */}
@@ -150,6 +161,7 @@ const HomePage = () => {
                    </div>
                </div>
            </div>
+           <EventArea hclass={'space-extra2-top space-bottom overflow-hidden'} />
          <div className="space-top">
                <div className="row gy-4">
                   <div className="row justify-content-center">
@@ -213,7 +225,7 @@ const HomePage = () => {
             </div> 
 
          <BrandArea hclass={'space bg-shape'} />
-         {/* <CtaArea hclass={' space-bottom'} /> */}
+         
          {/* <HotelOffersArea hclass={'space-top overflow-hidden bg-shape'} /> */}
          {/* <GalleryArea hclass={'overflow-hidden bg-shape space-top'} /> */}
          {/* <TestimonialArea hclass={'overflow-hidden space-top bg-shape TestimonialOn'} /> */}

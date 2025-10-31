@@ -39,21 +39,21 @@ Join our satisfied clients and experience the difference today.</p>
                   <div className="counter-card-wrap">
                       <div className="counter-card">
                           <div className="media-body">
-                              <h2 className="box-number"><span className="counter-number"><CountUp end={58}/></span>+</h2>
+                              <h2 className="box-number"><span className="counter-number"><CountUp end={100}/></span>+</h2>
                               <p className="box-text">Clients</p>
                           </div>
                       </div>
                       <div className="divider"></div>
                       <div className="counter-card">
                           <div className="media-body">
-                              <h2 className="box-number"><span className="counter-number"><CountUp end={10}/></span>+</h2>
+                              <h2 className="box-number"><span className="counter-number"><CountUp end={12}/></span>+</h2>
                               <p className="box-text">Years of Experience</p>
                           </div>
                       </div>
                       <div className="divider"></div>
                       <div className="counter-card">
                           <div className="media-body">
-                              <h2 className="box-number"><span className="counter-number"><CountUp end={370}/></span>+</h2>
+                              <h2 className="box-number"><span className="counter-number"><CountUp end={700}/></span>+</h2>
                               <p className="box-text">Staff</p>
                           </div>
                       </div>

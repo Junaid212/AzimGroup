@@ -1,8 +1,9 @@
 import CountUp from "react-countup";
 import { Link } from "react-router-dom";
-import Ab1 from '../../img//new/23.png';
+import Ab1 from '../../img//new/111.png';
 import Ab2 from '../../img//new/24.png';
 import Ab3 from '../../img//new/25.png';
+import Ab4 from '../../img//new/23.png';
 import title2 from '../../img/theme-img/title_icon2.svg'
 import CircleTextS2 from "../CircleTextS2/CircleTextS2";
 import VideoModal from "../ModalVideo/ModalVideo";
@@ -72,21 +73,8 @@ const AboutAreaS8 = () => {
                            </div>
                         </div>
                      </div>
-                     <div className="about-vouchers">
-                        <div className="box-content">
-                           <h3 className="box-title">Get Brochure</h3>
-                           <p className="text">Empowering Growth, Uniting Excellence to Shape Tomorrow's Success</p>
-                           <Link onClick={ClickHandler} to="/contact" className="th-btn th-radius">Download</Link>
-                        </div>
-                        <div className="customer-review">
-                           <div className="box-review">
-                              <i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i><i className="fa-sharp fa-solid fa-star"></i>
-                           </div>
-                           <div className="box-content">
-                              <h2 className="box-number"><span className="counter-number"><CountUp end={98}></CountUp></span>%</h2>
-                              <p className="text">Customer Rating</p>
-                           </div>
-                        </div>
+                     <div >
+                        <img src={Ab4} alt="" />
                      </div>
                      <div className="img2">
                         <img src={Ab2} alt="" />

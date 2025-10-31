@@ -1,6 +1,9 @@
 import React from 'react';
 import ServiceData from '../../api/service';
 import { Link } from 'react-router-dom';
+import CtaArea from '../CtaArea/CtaArea';
+import titleimg from '../../img/theme-img/title_icon.svg';
+
 
 const ServiceAreaS5 = () => {
    const ClickHandler = () => {
@@ -21,8 +24,21 @@ const ServiceAreaS5 = () => {
    return (
       <section className="overflow-hidden space" id="service-sec" >
          <div className="container">
+            <div className="row justify-content-center">
+                           <div className="col-lg-10">
+                              <div className="title-area text-center">
+                                 
+                                 <h2 className="sec-title ">We are a Group of companies</h2>
+                                 <span className="title-img"><img src={titleimg} alt="shape" /></span>
+                                 <h6 style={{color:'#F89532'}}>
+Empowering Growth, Uniting Excellence to Shape Tomorrow's Success
+AZIM Group is a constellation of enterprises at the heart of Qatar's dynamic business landscape. With seven unique companies under our banner, we orchestrate services to deliver unmatched value across diverse industries
+</h6>
+                              </div>
+                           </div>
+                        </div>
             <div className="row gy-4">
-               {ServiceData.slice(0, 7).map((item, Skye) => (
+               {ServiceData.slice(0, 6).map((item, Skye) => (
                   <div 
                      className={`col-xxl-6 ${Skye === 6 ? 'offset-xxl-3' : ''}`} 
                      key={Skye}

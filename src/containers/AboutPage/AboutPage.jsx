@@ -35,18 +35,18 @@ const AboutPage = () => {
 >
   <blockquote style={{ flex: '1 1 300px' }}>
     <p>
-      Our vision is to be Qatar's pinnacle of collaborative excellence, driving
-      innovation, and setting industry standards. We envision a future where our
-      companies thrive and make a positive impact on industries and society.
+      We aim to be Qatar’s leading force in collaborative excellence, inspiring innovation and shaping 
+      industry benchmarks. Our vision is a future where our group of companies flourishes while creating
+       meaningful impact across industries and society.
     </p>
     <cite className="box-title">Our Vision</cite>
   </blockquote>
 
   <blockquote style={{ flex: '1 1 300px' }}>
     <p>
-      At AZIM Group, our mission is to deliver exceptional services through
-      collaboration, innovation, and dedication. We aim to exceed client
-      expectations, shape industries, and contribute to Qatar's growth.
+      Our mission at AZIM Group is to provide outstanding services driven by 
+      collaboration, innovation, and unwavering commitment. We strive to surpass
+       client expectations, influence industry standards, and actively support Qatar’s development.
     </p>
     <cite className="box-title">Our Mission</cite>
   </blockquote>

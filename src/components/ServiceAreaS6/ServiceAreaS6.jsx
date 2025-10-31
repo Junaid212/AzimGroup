@@ -34,7 +34,7 @@ const ServiceAreaS6 = () => {
 
 
                >
-                  {ServiceData.slice(0, 7).map((item, Skye) => (
+                  {ServiceData.slice(0, 6).map((item, Skye) => (
                      <SwiperSlide key={Skye}>
                         <div className="service-grid style-flex">
                            <div className="box-img global-img">

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Ab2 from '../../img/new/63.png';
+import Ab2 from '../../img/new/108.png';
 import Ab1 from '../../img/normal/about_avater.jpg';
 import Signature from '../../img/normal/signature.svg';
 import PatternsShape from '../../img/shape/pattern-shape.png';
@@ -17,7 +17,7 @@ const AboutAreaS2 = (props) => {
          </div>
          <div className="container" style={{backgroundColor:'#000000'}}>
             <div className="row align-items-center">
-               <div className="col-xl-5 mb-35 mb-xl-0">
+               <div className="col-xl-6 mb-35 mb-xl-0">
                   <div className="img-box2">
                      <div className="img1 th-parallax">
                         <img src={Ab2} alt="Image" />

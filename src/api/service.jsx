@@ -35,13 +35,13 @@ import Icon11 from '../img/icon/service_2_5.svg'
 import Icon12 from '../img/icon/service_2_6.svg'
 import Icon13 from '../img/icon/service_2_7.svg'
 import Icon14 from '../img/icon/service_2_8.svg'
-import service_1 from '../img/new/14.png'
-import service_2 from '../img/new/15.png'
-import service_3 from '../img/new/16.png'
-import service_4 from '../img/new/17.png'
-import service_5 from '../img/new/18.png'
-import service_6 from '../img/new/19.png'
-import service_7 from '../img/new/20.png'
+import service_1 from '../img/new/101.png'
+import service_2 from '../img/new/102.png'
+import service_3 from '../img/new/103.png'
+import service_4 from '../img/new/104.png'
+import service_5 from '../img/new/105.png'
+import service_6 from '../img/new/106.png'
+import service_7 from '../img/new/106.png'
 import { PiCarThin } from "react-icons/pi";
 
 
@@ -50,9 +50,9 @@ const ServiceData = [
    {
       id: '01',
       num: '01',
-      title: 'One Way Limousine WLL',
-      title2: 'Air Conditioning',
-      subtitle: 'The wellbeing of our guests and staff is of paramount importance. Our Covid-19 strategy includes deep cleaning rooms between guests.',
+      title: 'AZIM Facilities Management & services',
+      title2: 'Bath',
+      subtitle: 'Crafting Elevated Experiences: Where Excellence Meets Service. Your space, our commitment.',
       slug: '1',
       image: service_1,
       grid: grid1,
@@ -63,9 +63,9 @@ const ServiceData = [
    {
       id: '02',
       num: '02',
-      title: 'AZIM Facilities Management & services',
-      title2: 'Bath',
-      subtitle: 'Crafting Elevated Experiences: Where Excellence Meets Service. Your space, our commitment.',
+      title: 'One Way Limousine WLL',
+      title2: 'Air Conditioning',
+      subtitle: 'The wellbeing of our guests and staff is of paramount importance. Our Covid-19 strategy includes deep cleaning rooms between guests.',
       slug: '2',
       image: service_2,
       grid: grid2,
@@ -115,6 +115,18 @@ const ServiceData = [
    {
       id: '06',
       num: '06',
+      title: 'Vadakara To Kasargod Restaurant',
+      title2: 'STAY & DINE',
+      subtitle: 'Whats life without good food. Both our restaurants offer a variety of cuisine to try. Cooked with fresh vegetables and herbs that you can pick from the farm.',
+      slug: '7',
+      image: service_7,
+      grid: grid7,
+      Icon: Icon6,
+      link: '/restaurent/7'
+   },
+   {
+      id: '07',
+      num: '07',
       title: 'Golden Auto Electrical',
       title2: 'Televesion',
       subtitle: 'The wellbeing of our guests and staff is of paramount importance. Our Covid-19 strategy includes deep cleaning rooms between guests.',
@@ -124,18 +136,6 @@ const ServiceData = [
       Icon: Icon10,
       Icon2: service_6,
       link: '/golden-auto-electrical/6'
-   },
-   {
-      id: '07',
-      num: '07',
-      title: 'Vadakara To Kasargod Restaurant',
-      title2: 'STAY & DINE',
-      subtitle: 'Whats life without good food. Both our restaurants offer a variety of cuisine to try. Cooked with fresh vegetables and herbs that you can pick from the farm.',
-      slug: '7',
-      image: service_7,
-      grid: grid7,
-      Icon: Icon6,
-      link: '/restaurent/7'
    },
    {
       id: '08',
