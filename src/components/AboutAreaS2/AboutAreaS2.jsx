@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import Ab2 from '../../img/new/108.png';
+import Ab2 from '../../img/new/119.png';
 import Ab1 from '../../img/normal/about_avater.jpg';
 import Signature from '../../img/normal/signature.svg';
 import PatternsShape from '../../img/shape/pattern-shape.png';

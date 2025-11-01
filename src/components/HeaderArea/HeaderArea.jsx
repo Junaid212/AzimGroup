@@ -183,8 +183,8 @@ const HeaderArea = (props) => {
                                        <li><Link onClick={ClickHandler} to="/restaurent/7">Restaurant</Link></li>
                                     </ul>
                                  </li>
-                                 {/* <li><Link onClick={ClickHandler} to="/gallery">Gallery</Link></li>
-                                 <li className="menu-item-has-children">
+                                 <li><Link onClick={ClickHandler} to="/sectors">Sectors</Link></li>
+                                 {/* <li className="menu-item-has-children">
                                     <Link onClick={ClickHandler} to="#">Blog</Link>
                                     <ul className="sub-menu">
                                        <li><Link onClick={ClickHandler} to="/blog">Blog</Link></li>

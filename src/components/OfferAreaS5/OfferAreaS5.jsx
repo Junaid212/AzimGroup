@@ -11,7 +11,7 @@ import offer_5 from '../../img/offer/offer_6_5.jpg';
 import img2 from '../../img/new/40.png'
 import testimonialData from '../../api/testimonial';
 import img3 from '../../img/new/41.png'
-import img4 from '../../img/new/39.png'
+import img4 from '../../img/new/116.png'
 import img5 from '../../img/new/42.png'
 import img6 from '../../img/new/43.png'
 

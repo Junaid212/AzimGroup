@@ -15,6 +15,7 @@ const AboutAreaS4 = (props) => {
 
    return (
       <div>
+         
       <div className={"" + props.hclass}>
          <div className="container">
             <div className="row align-items-center">

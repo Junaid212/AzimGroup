@@ -23,7 +23,7 @@ import PackagePage from './PackagePage/PackagePage'
 import PricingPage from './PricingPage/PricingPage'
 import ReviewPage from './ReviewPage/ReviewPage'
 import RoomDetailsPage from './RoomDetailsPage/RoomDetailsPage'
-import RoomPage from './RoomPage/RoomPage'
+import RoomPage from './Sectors/Sectors'
 import ServiceDetailsPage from './ServiceDetailsPage/ServiceDetailsPage'
 import ServicePage from './ServicePage/ServicePage'
 import TeamDetailsPage from './TeamDetailsPage/TeamDetailsPage'
@@ -36,6 +36,11 @@ import NajilaFoodTrading from './NajilaFoodTrading/NajilaFoodTrading'
 import CleaningAndHospitalityServices from './CleaningAndHospitalityServices/CleaningAndHospitalityServices'
 import GoldenAutoElectrical from './GoldenAutoElectrical/GoldenAutoElectrical'
 import VadakaraToKasargodRestaurant from './VadakaraToKasargodRestaurant/VadakaraToKasargodRestaurant'
+import Residential from '../components/Residential/Residential'
+import Government from '../components/Government/Government'
+import RealEstate from '../components/RealEstate/RealEstate'
+import Education from '../components/Education/Education'
+import Sectors from './Sectors/Sectors'
 
 
 const App = () => {
@@ -63,7 +68,7 @@ const App = () => {
                   <Route element={<HomePageS4 />} path="home-4" />
                   <Route element={<HomePageS5 />} path="home-5" />
                   <Route element={<AboutPage />} path="about" />
-                  <Route element={<RoomPage />} path="room" />
+                  <Route element={<Sectors />} path="sectors" />
                   <Route element={<RoomDetailsPage />} path='room-details/:slug' />
                   <Route element={<TeamPage />} path="team" />
                   <Route element={<TeamDetailsPage />} path='team-details/:slug' />
@@ -84,6 +89,10 @@ const App = () => {
                   <Route element={<CleaningAndHospitalityServices/>} path='hospitality-services/:slug' />
                   <Route element={<GoldenAutoElectrical/>} path='golden-auto-electrical/:slug' />
                   <Route element={<VadakaraToKasargodRestaurant/>} path='restaurent/:slug' />
+                  <Route element={<Residential/>} path='residential'/>
+                  <Route element={<Government/>} path='government'/>
+                  <Route element={<RealEstate/>} path='real-estate'/>
+                  <Route element={<Education/>} path='education'/>
                   <Route element={<GalleryPage />} path="gallery" />
                   <Route element={<BlogPage />} path="blog" />
                   <Route element={<BlogGridPage />} path="blog-grid" />

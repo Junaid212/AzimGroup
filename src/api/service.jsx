@@ -21,12 +21,12 @@ import grid8 from '../img/service/service_grid_8.jpg'
 
 
 
-import Icon1 from '../img/icon/service_card_1.svg'
-import Icon2 from '../img/icon/service_card_2.svg'
-import Icon3 from '../img/icon/service_card_3.svg'
-import Icon4 from '../img/icon/service_card_4.svg'
-import Icon5 from '../img/icon/service_card_5.svg'
-import Icon6 from '../img/icon/service_card_6.svg'
+import Icon1 from '../img/new/121.png'
+import Icon2 from '../img/new/122.png'
+import Icon3 from '../img/new/123.png'
+import Icon4 from '../img/new/124.png'
+import Icon5 from '../img/new/125.png'
+import Icon6 from '../img/new/126.png'
 import Icon7 from '../img/icon/service_2_1.svg'
 import Icon8 from '../img/icon/service_2_2.svg'
 import Icon9 from '../img/icon/service_2_3.svg'
@@ -51,12 +51,13 @@ const ServiceData = [
       id: '01',
       num: '01',
       title: 'AZIM Facilities Management & services',
-      title2: 'Bath',
+      title2: 'Integrated Expertise',
       subtitle: 'Crafting Elevated Experiences: Where Excellence Meets Service. Your space, our commitment.',
+      subtitle2:'Azim Group delivers a unique advantage through its comprehensive suite of services offered by diverse subsidiaries. We provide fully integrated solutions across multiple sectors, ensuring seamless coordination and exceptional results.',
       slug: '1',
       image: service_1,
       grid: grid1,
-      Icon: Icon10,
+      Icon: Icon1,
       Icon2: service_1,
       link: '/one-way-limousin-wll/1'
    },
@@ -64,8 +65,9 @@ const ServiceData = [
       id: '02',
       num: '02',
       title: 'One Way Limousine WLL',
-      title2: 'Air Conditioning',
+      title2: 'Proven Track Record',
       subtitle: 'The wellbeing of our guests and staff is of paramount importance. Our Covid-19 strategy includes deep cleaning rooms between guests.',
+      subtitle2:'Our long history of successful ventures speaks for itself. Each subsidiary within Azim Group consistently demonstrates excellence, reliability, and leadership in its respective industry.',
       slug: '2',
       image: service_2,
       grid: grid2,
@@ -77,8 +79,9 @@ const ServiceData = [
       id: '03',
       num: '03',
       title: 'VenYou Events',
-      title2: 'Haidryer',
+      title2: 'Versatility Across Industries',
       subtitle: 'The wellbeing of our guests and staff is of paramount importance. Our Covid-19 strategy includes deep cleaning rooms between guests.',
+      subtitle2:'From facility management, limousine services, and event management to food trading, auto electrical services, restaurants, and cleaning and hospitality solutions — Azim Group’s expertise spans a broad range of industries.',
       slug: '3',
       image: service_3,
       grid: grid3,
@@ -90,12 +93,13 @@ const ServiceData = [
       id: '04',
       num: '04',
       title: 'Najila Food Trading',
-      title2: 'King bed',
+      title2: 'Innovation at the Core',
       subtitle: 'The wellbeing of our guests and staff is of paramount importance. Our Covid-19 strategy includes deep cleaning rooms between guests.',
+      subtitle2:'We embrace innovation at every level, adopting modern technologies and progressive approaches to remain at the forefront of industry trends and standards.',
       slug: '4',
       image: service_4,
       grid: grid4,
-      Icon: Icon6,
+      Icon: Icon4,
       Icon2: service_4,
       link: '/nijila-food-trading/4'
    },
@@ -103,8 +107,9 @@ const ServiceData = [
       id: '05',
       num: '05',
       title: 'Golden Vision Cleaning and Hospitality Services',
-      title2: 'Mini Bar',
+      title2: 'Customer-Centric Focus',
       subtitle: 'The wellbeing of our guests and staff is of paramount importance. Our Covid-19 strategy includes deep cleaning rooms between guests.',
+      subtitle2:'At Azim Group, customer satisfaction is a priority. We customize our services to meet the unique needs of each client, building trusted relationships that last.',
       slug: '5',
       image: service_5,
       grid: grid5,
@@ -116,9 +121,10 @@ const ServiceData = [
       id: '06',
       num: '06',
       title: 'Vadakara To Kasargod Restaurant',
-      title2: 'STAY & DINE',
+      title2: 'Comprehensive Solutions',
       subtitle: 'Whats life without good food. Both our restaurants offer a variety of cuisine to try. Cooked with fresh vegetables and herbs that you can pick from the farm.',
-      slug: '7',
+      subtitle2:'As a one-stop solution provider, Azim Group enables clients to access an extensive range of services, meeting diverse business requirements under one roof.',
+      slug: '6',
       image: service_7,
       grid: grid7,
       Icon: Icon6,
@@ -130,7 +136,7 @@ const ServiceData = [
       title: 'Golden Auto Electrical',
       title2: 'Televesion',
       subtitle: 'The wellbeing of our guests and staff is of paramount importance. Our Covid-19 strategy includes deep cleaning rooms between guests.',
-      slug: '6',
+      slug: '7',
       image: service_6,
       grid: grid6,
       Icon: Icon10,

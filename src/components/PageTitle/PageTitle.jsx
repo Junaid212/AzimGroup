@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import bgImage from '../../img/new/38.png'
+import bgImage from '../../img/new/134.png'
 
 const PageTitle = (props) => {
  const ClickHandler = () => {

@@ -26,6 +26,8 @@ import feature2 from '../../img/icon/about_feature_2.svg'
 import feature3 from '../../img/icon/about_feature_3.svg'
 import feature4 from '../../img/icon/about_feature_4.svg'
 import EventArea from '../../components/EventArea/EventArea';
+import ServiceAreaS4 from '../../components/ServiceAreaS4/ServiceAreaS4';
+import RoomsAreaS4 from '../../components/RoomsAreaS4/RoomsAreaS4';
 
 
 const HomePage = () => {
@@ -223,7 +225,8 @@ const HomePage = () => {
                   </div>
                </div>
             </div> 
-
+            {/* <RoomsAreaS4 hclass={'offer-area5 position-relative overflow-hidden space-bottom overflow-hidden'} /> */}
+             <ServiceAreaS4 />                       
          <BrandArea hclass={'space bg-shape'} />
          
          {/* <HotelOffersArea hclass={'space-top overflow-hidden bg-shape'} /> */}

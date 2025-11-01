@@ -8,15 +8,15 @@ import RoomsAreaS6 from '../../components/RoomsAreaS6/RoomsAreaS6';
 import Scrollbar from '../../components/Scrollbar/Scrollbar';
 
 
-const RoomPage = () => {
+const Sectors = () => {
 
    return (
       <Fragment>
          <ColorScheme />
          <HeaderArea hclass={'th-header header-layout1'} ContactBtn={true} />
-         <PageTitle pageTitle={'Rotal rooms & suits'} pagesub={'Rotal rooms & suits'} />
+         <PageTitle pageTitle={'Sectors'} pagesub={'Sectors'} />
          <RoomsAreaS6 />
-         <BookingAreaS7 hclass={'booking-area2 position-relative bg-fixed background-image'} />
+         {/* <BookingAreaS7 hclass={'booking-area2 position-relative bg-fixed background-image'} /> */}
          <FooterArea hclass={'footer-wrapper footer-layout1'} />
          <Scrollbar />
 
@@ -24,4 +24,4 @@ const RoomPage = () => {
    )
 }
 
-export default RoomPage
+export default Sectors

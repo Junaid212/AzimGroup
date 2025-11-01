@@ -16,7 +16,7 @@ import AboutAreaS3 from '../../components/AboutAreaS3/AboutAreaS3';
 import OfferAreaS5 from '../../components/OfferAreaS5/OfferAreaS5';
 import RoomsAreaS5 from '../../components/RoomsAreaS5/RoomsAreaS5';
 import RoomData from '../../api/room';
-import offer_1 from '../../img/new/50.png';
+import offer_1 from '../../img/new/118.png';
 import tag from '../../img/shape/tag.png';
 import offer_2 from '../../img/new/51.png';
 import offer_3 from '../../img/new/52.png';

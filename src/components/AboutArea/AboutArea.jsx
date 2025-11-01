@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import CountUp from 'react-countup';
 
-import Ab1 from '../../img/new/13.png'
+import Ab1 from '../../img/new/115.png'
 import title from '../../img/theme-img/ab-logo.png'
 import title2 from '../../img/theme-img/title_icon2.svg'
 import feature1 from '../../img/icon/about_feature_1.svg'

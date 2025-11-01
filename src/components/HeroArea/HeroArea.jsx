@@ -7,9 +7,9 @@ import 'swiper/css/thumbs';
 import { Autoplay, EffectFade, Thumbs } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import Sliderimg1 from '../../img//new/10.png';
-import Sliderimg2 from '../../img//new/11.png';
-import Sliderimg3 from '../../img//new/12.png';
+import Sliderimg1 from '../../img//new/133.png';
+import Sliderimg2 from '../../img//new/132.png';
+import Sliderimg3 from '../../img//new/131.png';
 import Bedimg from '../../img/icon/bed.svg';
 import Logoimg from '../../img/logo.png';
 
